@@ -7,7 +7,9 @@ require('mason-lspconfig').setup({
     'tsserver',
     'eslint',
     'html',
-    'cssls'
+    'cssls',
+		'jdtls',
+		'rust_analyzer'
   },
   handlers = {
     function(server)
